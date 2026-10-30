@@ -1,101 +1,70 @@
-
-# Telco Customer Churn Analysis
+# Computing Intelligence and Applications — Assignments
 
 **University of Rwanda**  
 **Department:** Computer Engineering  
 **Course:** Computing Intelligence and Applications  
-**Assignment:** Lab 1  
 **Registration Number:** 224004118
 
 ---
 
-## 1. Project Overview
+## 1. Repository Overview
 
-This project analyzes the Telco Customer Churn dataset using Python in a Kaggle Notebook. The main objective is to understand customer churn through data preprocessing and exploratory data analysis (EDA).
+This repository contains practical laboratory assignments and coursework completed as part of the **Computing Intelligence and Applications** course at the University of Rwanda.
 
-The analysis examines how customer demographics, phone services, contract types, paperless billing, and payment methods relate to customer churn.
+The assignments focus on applying computational intelligence concepts using Python, data analysis, machine learning techniques, and practical experiments.
 
-## 2. Dataset
+Each assignment is organized separately and includes the relevant source code, Jupyter notebooks, experimental results, visualizations, and explanations.
 
-**Dataset:** Telco Customer Churn  
-**Source:** [Kaggle – Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+## 2. Assignments
 
-The original dataset contains 7,043 customer records and 21 attributes.
+| Assignment | Topic | Description |
+|---|---|---|
+| Lab 1 | Telco Customer Churn Analysis | Data preprocessing and exploratory data analysis using the Telco Customer Churn dataset. |
+| Lab 2 | Country Schools Analysis | Data preprocessing, anomaly detection, and K-Means cluster analysis. |
 
-The `Churn` attribute indicates whether a customer left the company:
 
-- `0` – Customer stayed (No)
-- `1` – Customer churned (Yes)
+## 3. Tools and Technologies
 
-## 3. Tools and Libraries
+The assignments may use the following tools and libraries:
 
-- Python – Programming language
-- Kaggle Notebook – Development environment
-- Pandas – Data loading, preprocessing, and analysis
-- Matplotlib – Data visualization
-- Seaborn – Statistical data visualization
+- **Python** — Programming and data analysis
+- **Kaggle Notebooks** — Running and documenting experiments
+- **Jupyter Notebook** — Interactive Python development
+- **Pandas** — Data manipulation and preprocessing
+- **NumPy** — Numerical operations
+- **Matplotlib** — Data visualization
+- **Seaborn** — Statistical visualization
+- **Scikit-learn** — Machine learning algorithms
+
+Additional tools and libraries will be included where required by individual assignments.
+
 
 ## 4. Methodology
 
-### 4.1 Data Loading
+Depending on the assignment requirements, the practical work may involve:
 
-The dataset was loaded into a Pandas DataFrame. The first and last five records were displayed to examine its structure.
+1. Data collection and loading
+2. Data cleaning and preprocessing
+3. Exploratory data analysis (EDA)
+4. Feature engineering and selection
+5. Machine learning model implementation
+6. Data visualization and interpretation
+7. Evaluation and discussion of results
 
-### 4.2 Data Preprocessing
+Each notebook contains the methodology, code, results, and conclusions specific to that assignment.
 
-1. Converted the Churn attribute from Yes/No to 1/0.
-2. Examined the data types of all attributes.
-3. Converted TotalCharges from object to float64.
-4. Identified 11 missing values in TotalCharges.
-5. Removed records containing missing values.
+## 5. Running the Notebooks
 
-After preprocessing, **7,032 customer records** remained, with no missing values.
+The notebooks can be opened using **Kaggle** or **Jupyter Notebook**.
 
-### 4.3 Exploratory Data Analysis
+Required datasets and Python libraries are specified within the relevant assignments. Dataset paths may need to be adjusted depending on the execution environment.
 
-**Demographic Analysis**
-- Gender vs Churn
-- SeniorCitizen vs Churn
-- Partner vs Churn
-- Dependents vs Churn
+## 6. Repository Purpose
 
-**Service Analysis**
-- PhoneService vs Churn
-
-**Payment and Contract Analysis**
-- Contract vs Churn
-- PaperlessBilling vs Churn
-- PaymentMethod vs Churn
-
-Counts, churn rates, and visualizations were used to compare customer groups.
-
-## 5. Key Findings
-
-| Attribute | Finding |
-|---|---|
-| Gender | Female and male customers had similar churn rates of 26.96% and 26.20%. |
-| SeniorCitizen | Senior citizens had a higher churn rate (41.68%) than non-senior citizens (23.65%). |
-| Partner | Customers without partners had a higher churn rate (32.98%). |
-| Dependents | Customers without dependents had a higher churn rate (31.28%). |
-| PhoneService | Churn rates were relatively similar for customers with and without phone service. |
-| Contract | Month-to-month customers had the highest churn rate (42.71%), while two-year contract customers had the lowest (2.85%). |
-| PaperlessBilling | Customers using paperless billing had a higher churn rate (33.59%). |
-| PaymentMethod | Electronic check users had the highest churn rate (45.29%). |
-
-## 6. How to Run the Notebook
-
-1. Download or clone this repository.
-2. Open the .ipynb notebook in Kaggle or Jupyter Notebook.
-3. Download the dataset from the Kaggle source linked above.
-4. Update the CSV file path in the notebook if necessary.
-5. Run the notebook cells in order.
-
-## 7. Conclusion
-
-The analysis identified several customer characteristics associated with churn. Contract type and payment method showed particularly large differences in churn rates, while gender and phone service showed relatively small differences.
-
-These findings provide insights into customer behavior and can help identify customer groups that may benefit from retention strategies.
+The purpose of this repository is to document practical coursework, demonstrate the application of computing intelligence techniques, and maintain an organized record of laboratory assignments completed during the semester.
 
 ---
 
-**Academic Project – Computing Intelligence and Applications | Lab 1**
+**University of Rwanda | Computer Engineering | Computing Intelligence and Applications**
+
+*Academic coursework repository.*
